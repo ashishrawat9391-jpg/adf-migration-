@@ -1,0 +1,25 @@
+{
+	"name": "SCH_triigerfornetfilxcsv",
+	"properties": {
+		"description": "Netflix files are going to output container",
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "PL_Copy_Adlscsv_To_Adls parquet",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2026-11-11T13:04:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}

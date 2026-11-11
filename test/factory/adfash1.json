@@ -1,0 +1,15 @@
+{
+	"name": "adfash1",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "803a3a15-1f20-4dd5-b063-f56f1351b4f8",
+		"tenantId": "c25c2025-7210-47ef-af13-e4db25b8de25"
+	}
+}
