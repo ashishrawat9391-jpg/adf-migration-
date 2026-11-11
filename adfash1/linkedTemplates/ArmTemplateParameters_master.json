@@ -1,0 +1,48 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfash1"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"LS_CSVBULK_accountKey": {
+			"value": ""
+		},
+		"LS_CSVTo_Parqet_accountKey": {
+			"value": ""
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://adlsash.dfs.core.windows.net/"
+		},
+		"LS_CSVBULK_properties_typeProperties_url": {
+			"value": "https://adlscsvtrigger1.dfs.core.windows.net/"
+		},
+		"LS_CSVTo_Parqet_properties_typeProperties_url": {
+			"value": "https://adlscsvoutputtrigger1.dfs.core.windows.net/"
+		},
+		"SqlServer1_properties_typeProperties_server": {
+			"value": "DESKTOP-60782LL\\SQLEXPRESS"
+		},
+		"SqlServer1_properties_typeProperties_database": {
+			"value": "SalesDb"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "Ashish"
+		},
+		"eventstoragetirgger_properties_typeProperties_scope": {
+			"value": "/subscriptions/ec9bce25-f81e-4712-b78c-137cdbd4888e/resourceGroups/rgashproject/providers/Microsoft.Storage/storageAccounts/adlscsvtrigger1"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
